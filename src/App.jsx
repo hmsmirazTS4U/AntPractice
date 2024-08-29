@@ -1,5 +1,5 @@
 import "./App.css";
-import AntValidateForm from "./components/AntValidateForm";
+import DragFileUpload from "./components/DragFileUpload";
 function App() {
   return (
     <>
@@ -8,9 +8,11 @@ function App() {
       {/* <AntButton />
       <AntInput />
       <AntSelect />
-      <AntForm />
-      <AntTable /> */}
-      <AntValidateForm />
+      <AntForm /> */}
+      {/* <AntTable /> */}
+      {/* <AntValidateForm /> */}
+      {/* <TablePagination /> */}
+      <DragFileUpload />
       </header>
       </div>
     </>
